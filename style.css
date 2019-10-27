@@ -128,7 +128,6 @@ input[name="r"]
 	margin-left: -80%;
 }
 
-
 .inner
 {
 	padding-top: 20px;
@@ -256,6 +255,22 @@ input[name="r"]
 	width: 50px;
 	z-index: 2;
 }
+
+.topBtn
+{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	font-size: 22px;
+	width: 50px;
+	height: 50px;
+  background: rgba(40, 190, 133, 0.8);
+	color: white
+	border: none;
+	cursor: pointer;
+	display: none;
+}
+
 /*Мобильная версия*/
 @media screen and (max-width: 990px)
 {

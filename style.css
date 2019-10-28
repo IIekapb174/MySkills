@@ -271,6 +271,17 @@ input[name="r"]
 	display: none;
 }
 
+
+
+#footer
+{
+	background-color: #2d2b2b;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+}
+
 /*Мобильная версия*/
 @media screen and (max-width: 990px)
 {

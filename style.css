@@ -337,16 +337,18 @@ input[name="r"]
 	border-radius: 50%;
 }
 
-#footer
+.footer
 {
 	background-color: #2d2b2b;
-	position: relative;
-	height: 100px;
-	margin-top: -100px;
-	clear: both;
-	padding-top: 40px;
-	text-align: center;
 	color: rgba(0, 255, 159, 0.8);
+	padding: 12px;
+
+	grid-template-columns: auto;
+}
+
+.heart
+{
+	color: red;
 }
 
 /*Мобильная версия*/
@@ -356,6 +358,10 @@ input[name="r"]
 	{
 		grid-template-columns: repeat(2, 1fr);
 		padding: 2rem 50px;
+	}
+	.footer
+	{
+		grid-template-columns: auto;
 	}
 
 	.contact-info

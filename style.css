@@ -374,6 +374,13 @@ input[name="r"]
 		max-width: 300px;
 		margin: 10px 0;
 	}
+
+	.slidershow
+	{
+		width: 100%;
+		max-width: 500px;
+		max-height: 300px;
+	}
 }
 
 @media screen and (max-width: 650px)

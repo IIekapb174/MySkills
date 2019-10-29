@@ -256,6 +256,66 @@ input[name="r"]
 	z-index: 2;
 }
 
+.contact-info
+{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+  padding: 0 20px;
+}
+
+.card
+{
+	background: #2f3542;
+	padding: 0 20px;
+	margin: 0 10px;
+	width: calc(33% - 20px);
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.card-icon
+{
+	font-size: 28px;
+	background: #2ecc71;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px !important;
+	border-radius: 50%;
+	transition: 0.3s linear;
+}
+
+.card:hover .card-icon
+{
+	background: none;
+	color: #2ecc71;
+	transform: scale(1.6);
+}
+
+.card p
+{
+	margin-top: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	max-height: 0;
+	opacity: 0;
+	transition: 0.3s linear;
+}
+
+.card:hover p
+{
+	max-height: 40px;
+	opacity: 1;
+}
+
 .topBtn
 {
 	position: fixed;
@@ -271,8 +331,6 @@ input[name="r"]
 	display: none;
 }
 
-
-
 #footer
 {
 	background-color: #2d2b2b;
@@ -286,12 +344,23 @@ input[name="r"]
 }
 
 /*Мобильная версия*/
-@media screen and (max-width: 990px)
+@media screen and (max-width: 800px)
 {
 	.container
 	{
 		grid-template-columns: repeat(2, 1fr);
 		padding: 2rem 50px;
+	}
+
+	.contact-info
+	{
+		flex-direction: column;
+	}
+	.card
+	{
+		width: 100%;
+		max-width: 300px;
+		margin: 10px 0;
 	}
 }
 

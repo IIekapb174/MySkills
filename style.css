@@ -212,6 +212,8 @@ input[name="r"]
 	color: #fff;
 	padding: 1rem;
 	position: relative;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .top:after

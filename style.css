@@ -60,9 +60,9 @@ body
 	float: right;
 }
 
-.show-menu-btn
+.show-menu-btn i
 {
-	float: right;
+	line-height: 100px
 }
 
 .menu a:hover,

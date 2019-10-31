@@ -18,6 +18,23 @@ body
 	background-color: #2f3542;
 }
 
+.textAbout
+{
+	position: relative;
+	text-align: center;
+	font-family: monospace;
+	color: #fff;
+	top: 250px;
+}
+
+.textAbout h1
+{
+	font-size: 80px;
+	font-weight: 100; /*Насыщенность шрифта*/
+	letter-spacing: 5px; /*Интервал между символами*/
+	margin-bottom: 30px;
+}
+
 .header
 {
 	height: 100px;
@@ -30,6 +47,7 @@ body
 	line-height: 100px;
 	float: left;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }
 
 .menu
@@ -79,12 +97,6 @@ body
 	z-index: -1111;
 }
 
-.about
-{
-	text-transform: uppercase;
-	text-align: justify;
-	color: #fff;
-}
 /* Фиксация картинки на фоне  */
 .scroll
 {

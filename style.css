@@ -365,7 +365,6 @@ input[name="r"]
 {
 	display: flex;
 	width: 100%;
-	max-width: 1200px;
 	align-items: center;
 	justify-content: center;
   padding: 20px 20px;
@@ -376,7 +375,7 @@ input[name="r"]
 	background: #57606f;
 	padding: 0 20px;
 	margin: 0 10px;
-	width: calc(33% - 20px);
+	width: calc(25vw - 20px);
 	height: 200px;
 	display: flex;
 	flex-direction: column;

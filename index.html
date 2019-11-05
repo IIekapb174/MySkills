@@ -185,13 +185,15 @@
 		</div>
 
 <!-- Write Me -->
-		<div class="top">
-			<h1>Write Me</h1>
-		</div>
+		<!-- <img src="img/profile.png"/> -->
 			<a onclick="pop()" class="btnWriteMe">Write Me!</a>
 			<div id="box">
-				<span class="fas fa-check"></span>
-				<h1>Good Job</h1>
+				<form class="contact-form" action="contactform.php" method="post">
+					<input type="text" name="name" placeholder="Full name" />
+					<input type="text" name="mail" placeholder="Your e-mail" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button type="submit" name="submit">SEND MAIL</button>
+				</form>
 
 				<a onclick="pop()" class="close">Close</a>
 			</div>

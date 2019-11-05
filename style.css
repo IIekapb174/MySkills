@@ -422,7 +422,7 @@ input[name="r"]
 
 .btnWriteMe
 {
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -440,7 +440,7 @@ input[name="r"]
 	background: #f1f1f1;
 	box-shadow: 0 0 20px black;
 	border-radius: 8px;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -448,20 +448,6 @@ input[name="r"]
 	padding: 10px;
 	text-align: center;
 	display: none;
-}
-
-#box span
-{
-	color: #2ed573;
-	font-size: 40px;
-	display: block;
-	margin: 20px 0;
-}
-
-#box h1
-{
-	color: #333;
-	padding-bottom: 10px;
 }
 
 .close

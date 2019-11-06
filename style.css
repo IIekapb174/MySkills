@@ -617,6 +617,7 @@ input[name="r"]
 		padding: 80px 0;
 		line-height: normal;
 		transition: 0.7s;
+		z-index: 1111;
 	}
 	.menu a
 	{

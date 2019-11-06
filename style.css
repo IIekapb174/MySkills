@@ -552,6 +552,7 @@ input[name="r"]
 	color: #fff;
 	font-size: 22px;
 	border-radius: 50%;
+	display: none;
 }
 
 .footer

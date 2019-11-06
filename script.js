@@ -12,6 +12,18 @@ $('html, body').stop().animate({
  });
 
 
+ $(document).ready(function(){
+
+   $(window).scroll(function(){
+     if($(this).scrollTop() > 40){
+       $('#gotoTopBtn').fadeIn()
+     } else{
+       $('#gotoTopBtn').fadeOut();
+     }
+   })
+ })
+
+
  var c = 0;
  function pop() {
    if(c == 0) {
